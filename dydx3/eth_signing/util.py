@@ -104,4 +104,4 @@ def addresses_are_equal(
 
 
 def hash_string(input):
-    return Web3.solidityKeccak(['string'], [input])
+    return Web3.solidity_keccak(['string'], [input])
